@@ -1,0 +1,14 @@
+.socialIcon {
+    font-size: 150%;
+    margin: 0 2%;
+}
+
+.footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
