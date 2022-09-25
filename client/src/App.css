@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  font-family: 'Belleza';
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.3)), url("../src/images/horizon_background.avif");
+  height: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+}
+
+#root {
+  height: 100% !important;
 }
 
 .App-logo {

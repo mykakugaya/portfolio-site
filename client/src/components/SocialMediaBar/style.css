@@ -1,6 +1,11 @@
 .socialIcon {
     font-size: 150%;
     margin: 0 2%;
+    color: #ffffff;
+}
+
+.socialIcon:hover {
+    color: #0d3c7d;
 }
 
 .footer {

@@ -6,6 +6,7 @@ import About from "./pages/AboutPage";
 import Projects from "./pages/ProjectsPage";
 import LeftMenu from "./components/LeftMenu";
 import Resume from "./pages/ResumePage";
+import SocialMediaBar from "./components/SocialMediaBar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
+        <SocialMediaBar/>
     </div>
   );
 }

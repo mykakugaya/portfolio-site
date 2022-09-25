@@ -1,0 +1,32 @@
+.home-nav {
+    position: absolute;
+    width: 18em;
+    height: 18em;
+    left: 25%;
+    top: 45%;
+    background-color: #072145a9;
+    border-radius: 50%;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.homeNavLink {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+
+.homeNavLink:hover {
+    color: #e8e2cf;
+}
+
+.navRow {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 6%!important;
+    padding-left: 38%!important;
+    width: fit-content!important;
+}
