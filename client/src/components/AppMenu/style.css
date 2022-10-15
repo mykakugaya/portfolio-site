@@ -19,3 +19,12 @@
     align-items: center;
     /* width: fit-content; */
 }
+
+.ant-menu {
+    background-color: #ffffffbc;
+}
+
+.ant-menu-item {
+    color: #072145;
+}
+

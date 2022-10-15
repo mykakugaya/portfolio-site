@@ -6,7 +6,7 @@ import {Row } from 'antd';
 const LandingTitle = () => {
     return (
         <div className="landingTitleContainer">
-            <Row>
+            <Row className='nameRow'>
                 <h1 className="name">Myka Kugaya</h1>
             </Row>
             <Row>

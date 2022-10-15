@@ -38,17 +38,17 @@ const LandingMenu = () => {
                 </Col>
             </Row> */}
             <Menu className='landingMenu' mode="inline">
-                <Menu.Item key="1" onClick={handleAboutClick}>
+                <Menu.Item key="1" onClick={handleAboutClick} className='menuItem'>
                     <UserOutlined />
-                    <span> About</span>
+                    <span>About</span>
                 </Menu.Item>
-                <Menu.Item key="2" onClick={handleProjectsClick}>
+                <Menu.Item key="2" onClick={handleProjectsClick} className='menuItem'>
                     <AppstoreOutlined />
-                    <span> Projects</span>
+                    <span>Projects</span>
                 </Menu.Item>
-                <Menu.Item key="3" onClick={handleResumeClick}>
+                <Menu.Item key="3" onClick={handleResumeClick} className='menuItem'>
                     <ProfileOutlined />
-                    <span> Resume</span>
+                    <span>Resume</span>
                 </Menu.Item>
             </Menu>
         </div>

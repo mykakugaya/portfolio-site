@@ -34,9 +34,13 @@
 .landingMenu {
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 25%;
     position: absolute;
     top: 45% !important;
-    left: 30% !important;
-    border-radius: 10%;
+    left: 37% !important;
+    border-radius: 15%;
+}
+
+.menuItem {
+    text-align: center;
 }
