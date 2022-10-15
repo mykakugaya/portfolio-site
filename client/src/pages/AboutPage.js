@@ -1,5 +1,5 @@
-import { Breadcrumb } from 'antd';
-import { HomeOutlined, UserOutlined } from '@ant-design/icons';
+import { Breadcrumb, Row } from 'antd';
+import { HomeOutlined, UserOutlined, SmileTwoTone } from '@ant-design/icons';
 import React from 'react';
 import './aboutStyle.css';
 import aboutImg from '../images/aboutMe.JPG';
@@ -18,7 +18,9 @@ export default function AboutPage() {
                 </Breadcrumb.Item>
             </Breadcrumb>
             <div className="aboutContainer">
-                <h1 className="aboutHeader typewriter-about">Hello, my name is Myka!</h1>
+                <Row>
+                    <h1 className="aboutHeader typewriter-about">Hello, my name is Myka! Welcome to my portfolio <SmileTwoTone /> <SmileTwoTone /></h1>
+                </Row>
                 <img className="aboutImage" src={aboutImg} alt="Myka Kugaya" />
                 <div className="aboutText">
                     <h3 className="aboutParagraph">
