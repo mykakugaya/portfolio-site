@@ -18,7 +18,7 @@ export default function AboutPage() {
                 </Breadcrumb.Item>
             </Breadcrumb>
             <div className="aboutContainer">
-                <h1 className="aboutHeader typewriter">Hello, my name is Myka!</h1>
+                <h1 className="aboutHeader typewriter-about">Hello, my name is Myka!</h1>
                 <img className="aboutImage" src={aboutImg} alt="Myka Kugaya" />
                 <div className="aboutText">
                     <h3 className="aboutParagraph">

@@ -57,7 +57,8 @@ const AppMenu = () => {
                     <ProfileOutlined />
                     <span> Resume</span>
                 </Menu.Item>
-                <Menu.SubMenu title={<><ContactsOutlined />
+                <Menu.SubMenu 
+                title={<><ContactsOutlined />
                 <span> Contacts</span></>}>
                     <Menu.Item key="4"><span><a href="mailto:mkugaya@bu.edu" target="__blank"><MailFilled className="headerSocialIcon"/> Email</a></span></Menu.Item>
                     <Menu.Item key="5"><span><a href="https://linkedin.com/in/mykakugaya" target="__blank"><LinkedinFilled className="headerSocialIcon"/> LinkedIn</a></span></Menu.Item>

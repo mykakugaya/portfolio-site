@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Card, Avatar, Image } from 'antd';
-import { GithubOutlined } from '@ant-design/icons';
+import { GithubOutlined, PlayCircleOutlined } from '@ant-design/icons';
 
 // takes in name, description, tech, github, deployed (opt), and image
 const { Meta } = Card;
@@ -32,21 +32,20 @@ export default function ProjectContainer(props) {
         // </Card>
         <div className="projectDetails">
             <Image
-                width={200}
+                className='projectImage'
                 src={props.image}
             />
             <div className="projectTitle">
-                <h1 className='projectName'>{props.name}</h1>
-                <h2 className='projectDescription'>{props.description}</h2>
+                <h2 className='projectName'>{props.name}</h2>
+                <h3 className='projectDescription'>{props.description}</h3>
             </div>
-            <div className='techList'>
-                <h3>Technologies Used:</h3>
-                <h4>{props.tech}</h4>
+            <div>
+                <h3 className='projectTech'>Technologies Used: {props.tech}</h3>
             </div>
             <div className='projectLinks'>
-                <a href={props.github} target="_blank" rel="noreferrer">Github respository</a>
-                {props.deployed ? 
-                <a href={props.deployed} target="_blank" rel="noreferrer">Deployed App</a>
+                <a className='projectLink' href={props.github} target="_blank" rel="noreferrer"><GithubOutlined/> Github respository</a>
+                {props.deployed !== "none" ? 
+                <a className='projectLink' href={props.deployed} target="_blank" rel="noreferrer"><PlayCircleOutlined /> Deployed App</a>
                 : null}
             </div>
         </div>

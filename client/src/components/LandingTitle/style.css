@@ -29,20 +29,20 @@
     border-right: .15em solid #e8e2cf; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: .15em !important; /* Adjust as needed */
     animation: 
         typing 4s steps(40, end),
-        blink-caret 0.8s step-end infinite;
+        blink-caret 0.8s step-end infinite !important;
 }
 
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 100% !important}
   }
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #e8e2cf; }
+    50% { border-color: #e8e2cf !important; }
   }

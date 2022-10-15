@@ -1,4 +1,4 @@
-import { Breadcrumb } from 'antd';
+import { Breadcrumb, Image } from 'antd';
 import { HomeOutlined, AppstoreOutlined } from '@ant-design/icons';
 import React from 'react';
 import './projectsStyle.css';
@@ -24,18 +24,22 @@ export default function ProjectsPage() {
                 </Breadcrumb.Item>
             </Breadcrumb>
             {/* map through projects array and create div for each */}
-            {projects.map((project, index) => {
-                return (
-                    <ProjectContainer 
-                        key={index}
-                        title={project.title}
-                        description={project.description}
-                        image={project.image}
-                        github={project.github}
-                        deployed={project.deployed}
-                    />
-                );
-            })}
+            <Image.PreviewGroup>
+                {projects.map((project) => {
+                    return (
+                        <ProjectContainer 
+                            key={project.key}
+                            name={project.name}
+                            description={project.description}
+                            tech={project.tech}
+                            image={project.image}
+                            github={project.github}
+                            deployed={project.deployed}
+                        />
+                    );
+                })}
+            </Image.PreviewGroup>
+                
         </div>
         </div>
     );
