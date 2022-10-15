@@ -1,14 +1,16 @@
 .headerName {
     text-align: center !important;
     color: #072145;
-    font-size: 2.5em;
+    font-size: 2em;
+    padding-top: 7%;
 }
 
 .header {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    /* padding-top: 2%; */
+    padding-bottom: 2%;
     width: 100%;
 }
 

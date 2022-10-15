@@ -4,7 +4,7 @@ import "./style.css";
 import { Col, Row, Tooltip } from 'antd';
 import {GithubOutlined, MailFilled, LinkedinFilled} from '@ant-design/icons';
 
-const SocialMediaBar = () => {
+const SocialMediaFooter = () => {
     return (
         <div className='footer'>
             <Row>
@@ -24,4 +24,4 @@ const SocialMediaBar = () => {
     );
 };
 
-export default SocialMediaBar;
+export default SocialMediaFooter;

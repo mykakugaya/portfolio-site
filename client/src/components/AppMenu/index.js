@@ -35,13 +35,16 @@ const AppMenu = () => {
 
     return(
         <div className="header">
-            <h1 className="headerName" onClick={handleLandingClick}>Myka Kugaya</h1>
+            {/* <h1 className="headerName" onClick={handleLandingClick}>Myka Kugaya</h1> */}
             {/* <div className="left-menu-links">
                 <Link to="/about" className="left-menu-link">About</Link><br/>
                 <Link to="/projects" className="left-menu-link">Projects</Link><br/>
                 <Link to="/resume" className="left-menu-link">Resume</Link>
             </div> */}
             <Menu className='appMenu' mode="horizontal" defaultSelectedKeys={[getSelectedKey()]}>
+                <Menu.Item key="0" onClick={handleLandingClick}>
+                    <h1 className="headerName" onClick={handleLandingClick}>Myka Kugaya</h1>
+                </Menu.Item>
                 <Menu.Item key="1" onClick={handleAboutClick}>
                     <UserOutlined />
                     <span> About</span>

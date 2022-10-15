@@ -4,7 +4,7 @@ import './aboutStyle.css';
 
 export default function AboutPage() {
     return (
-        <div className="aboutContainer">
+        <div className="aboutPage">
             <Row>
                 <Col span={24}>
                     <h1 className='aboutHeader'>About</h1>

@@ -7,7 +7,7 @@ import About from "./pages/AboutPage";
 import Projects from "./pages/ProjectsPage";
 import AppMenu from "./components/AppMenu";
 import Resume from "./pages/ResumePage";
-import SocialMediaBar from "./components/SocialMediaBar";
+import SocialMediaFooter from "./components/SocialMediaFooter";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/projects" element={<Projects/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
-        <SocialMediaBar/>
+        <SocialMediaFooter/>
     </div>
   );
 }

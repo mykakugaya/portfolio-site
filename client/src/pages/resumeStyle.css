@@ -3,5 +3,10 @@
 }
 
 .resumeContainer {
-    max-height: 100vh;
+    height: fit-content;
+    /* padding-bottom: 30%; */
+}
+
+.downloadBtn {
+    margin-bottom: 1%;
 }
