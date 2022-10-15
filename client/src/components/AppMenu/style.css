@@ -28,12 +28,13 @@
 
 .ant-menu-item {
     color: #072145;
+    /* font-size: 1em; */
 }
 
 .headerLinksContainer {
     position: absolute;
     right: 0;
-    padding-right: 2%;
+    margin-right: 2%;
     top: 0;
     padding-top: 2%;
     width: 10%;

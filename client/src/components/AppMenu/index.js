@@ -4,7 +4,7 @@ import "./style.css";
 // import { Col, Row } from 'antd';
 import { useNavigate } from "react-router-dom";
 import { Menu, Tooltip } from 'antd';
-import { UserOutlined, AppstoreOutlined, ProfileOutlined, MailFilled, LinkedinFilled, GithubOutlined } from '@ant-design/icons';
+import { UserOutlined, ContactsOutlined, AppstoreOutlined, ProfileOutlined, MailFilled, LinkedinFilled, GithubOutlined } from '@ant-design/icons';
 
 const AppMenu = () => {
     const navigate = useNavigate();
@@ -57,8 +57,14 @@ const AppMenu = () => {
                     <ProfileOutlined />
                     <span> Resume</span>
                 </Menu.Item>
+                <Menu.SubMenu title={<><ContactsOutlined />
+                <span> Contacts</span></>}>
+                    <Menu.Item key="4"><span><a href="mailto:mkugaya@bu.edu" target="__blank"><MailFilled className="headerSocialIcon"/> Email</a></span></Menu.Item>
+                    <Menu.Item key="5"><span><a href="https://linkedin.com/in/mykakugaya" target="__blank"><LinkedinFilled className="headerSocialIcon"/> LinkedIn</a></span></Menu.Item>
+                    <Menu.Item key="6"><span><a href="https://www.github.com/mykakugaya" target="__blank"><GithubOutlined className="headerSocialIcon"/> Github</a></span></Menu.Item>
+                </Menu.SubMenu>
             </Menu>
-            <div className='headerLinksContainer'>
+            {/* <div className='headerLinksContainer'>
                     <Tooltip placement="top" title={"Gmail"}>
                         <span><a href="mailto:mkugaya@bu.edu" target="__blank"><MailFilled className="headerSocialIcon"/></a></span>
                     </Tooltip>
@@ -68,7 +74,7 @@ const AppMenu = () => {
                     <Tooltip placement="top" title={"Github"}>
                         <span><a href="https://www.github.com/mykakugaya" target="__blank"><GithubOutlined className="headerSocialIcon"/></a></span>
                     </Tooltip>
-            </div>
+            </div> */}
         </div>
     );
 }
