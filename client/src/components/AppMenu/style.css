@@ -1,0 +1,19 @@
+.headerName {
+    text-align: center !important;
+    color: #072145;
+    font-size: 2.5em;
+}
+
+.header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.appMenu {
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+}

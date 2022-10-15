@@ -1,12 +1,13 @@
-import { Col, Row } from 'antd';
 import React from 'react';
+import './resumeStyle.css';
+import PDFViewer from "../components/PDFViewer";
+import Resume from './Myka_Kugaya_Resume.pdf';
 
 export default function ResumePage() {
     return (
-        <Row>
-            <Col span={24}>
-                <h1>Resume Page</h1>
-            </Col>
-        </Row>
+        <div className="resumeContainer">
+            <PDFViewer pdf={Resume} />
+        </div>
+
     );
 }

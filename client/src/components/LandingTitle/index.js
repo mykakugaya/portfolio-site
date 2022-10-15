@@ -10,7 +10,7 @@ const LandingTitle = () => {
                 <h1 className="name">Myka Kugaya</h1>
             </Row>
             <Row>
-                <h2 className="position">Software Engineer & Full-Stack Developer</h2>
+                <h2 className="position typewriter">Software Engineer & Full-Stack Developer</h2>
             </Row>
         </div>
     );

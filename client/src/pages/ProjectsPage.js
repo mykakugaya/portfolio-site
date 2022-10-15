@@ -4,10 +4,12 @@ import './projectsStyle.css';
 
 export default function ProjectsPage() {
     return (
-        <Row>
-            <Col span={24}>
-                <h1>Projects</h1>
-            </Col>
-        </Row>
+        <div className="projectsContainer">
+            <Row>
+                <Col span={24}>
+                    <h1 className='projectsHeader'>Projects</h1>
+                </Col>
+            </Row>
+        </div>
     );
 }
