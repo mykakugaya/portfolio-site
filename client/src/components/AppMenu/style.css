@@ -12,6 +12,8 @@
     /* padding-top: 2%; */
     padding-bottom: 2%;
     width: 100%;
+    position: fixed;
+    margin-bottom: 10% !important;
 }
 
 .appMenu {
@@ -28,3 +30,17 @@
     color: #072145;
 }
 
+.headerLinksContainer {
+    position: absolute;
+    right: 0;
+    padding-right: 2%;
+    top: 0;
+    padding-top: 2%;
+    width: 10%;
+}
+
+.headerSocialIcon {
+    color: #072145;
+    font-size: 1.5em;
+    margin-right: 10%;
+}

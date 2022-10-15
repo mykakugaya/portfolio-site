@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "https://localhost:3001/",
+  "proxy": "https://127.0.0.1:3001/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

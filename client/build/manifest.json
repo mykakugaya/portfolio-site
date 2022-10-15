@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Myka Kugaya",
+  "name": "Myka Kugaya - Portfolio",
   "icons": [
     {
-      "src": "MK_icon.ico",
+      "src": "MK_icon_blue.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "MK_icon.png",
+      "src": "MK_icon_blue.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "MK_icon.png",
+      "src": "MK_icon_blue.png",
       "type": "image/png",
       "sizes": "512x512"
     }

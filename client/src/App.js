@@ -19,7 +19,7 @@ function App() {
           <Route path="/projects" element={<Projects/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
-        <SocialMediaFooter/>
+        {useLocation().pathname === "/" ? <SocialMediaFooter/> : <></>}
     </div>
   );
 }

@@ -1,7 +1,47 @@
-.aboutPage {
-    height: 100vh;
-}
-
 .aboutHeader {
     color: #072145;
+    width: fit-content;
+    margin-bottom: 2% !important;
 }
+
+.aboutContainer {
+    padding: 2%;
+}
+
+.aboutImage {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 2% !important;
+}
+
+.aboutText {
+    margin: 0 auto;
+    width: 80%;
+    color: #072145;
+    font-size: 1em;
+    margin-bottom: 5% !important;
+}
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #e8e2cf; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+        typing 3s steps(30, end),
+        blink-caret 0.8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #e8e2cf; }
+  }

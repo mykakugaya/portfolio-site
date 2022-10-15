@@ -21,6 +21,48 @@ body, html {
   pointer-events: none;
 }
 
+.pageContainer {
+  margin: 0 auto;
+  padding-top: 10% !important;
+  width: 90vw;
+  height: fit-content;
+}
+
+.pageContent {
+  padding: 2%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  background-color: rgba(240, 248, 255, 0.756);
+  height: fit-content;
+  border-radius: 2%;
+}
+
+.ant-breadcrumb {
+  padding-left: 2% !important;
+}
+
+.ant-breadcrumb-link {
+  color: #072145 !important;
+}
+
+@media screen and (max-width: 820px) {
+  .pageContainer {
+    padding-top: 15% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pageContainer {
+    padding-top: 20% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pageContainer {
+    padding-top: 25% !important;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

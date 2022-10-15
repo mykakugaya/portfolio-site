@@ -40,7 +40,7 @@ const LandingMenu = () => {
             <Menu className='landingMenu' mode="inline">
                 <Menu.Item key="1" onClick={handleAboutClick} className='menuItem'>
                     <UserOutlined />
-                    <span>About</span>
+                    <span>About Me</span>
                 </Menu.Item>
                 <Menu.Item key="2" onClick={handleProjectsClick} className='menuItem'>
                     <AppstoreOutlined />
