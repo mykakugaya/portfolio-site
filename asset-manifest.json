@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d90da68.css",
-    "main.js": "/static/js/main.9b29f82b.js",
-    "static/js/496.5a9dc550.chunk.js": "/static/js/496.5a9dc550.chunk.js",
-    "static/media/spaceHub.png": "/static/media/spaceHub.64adb861987fc131aa81.png",
-    "static/media/thievesMonopoly.PNG": "/static/media/thievesMonopoly.02e8edad7a7a497282be.PNG",
-    "static/media/aboutMe.JPG": "/static/media/aboutMe.49ec2a03177bf12dab2e.JPG",
-    "static/media/joTheFish.PNG": "/static/media/joTheFish.484847e578dbb57d09ae.PNG",
-    "static/media/tempoKeeper.png": "/static/media/tempoKeeper.eb0473295ca624ff4d81.png",
-    "static/media/minute.PNG": "/static/media/minute.8e9ad2d3a3bbca9ae33c.PNG",
-    "static/media/Myka_Kugaya_Resume.pdf": "/static/media/Myka_Kugaya_Resume.3178aa9d23a76107a2d7.pdf",
-    "static/media/horizon_background.avif": "/static/media/horizon_background.3b2d3f3b73a8768b2dbf.avif",
-    "index.html": "/index.html",
-    "main.1d90da68.css.map": "/static/css/main.1d90da68.css.map",
-    "main.9b29f82b.js.map": "/static/js/main.9b29f82b.js.map",
-    "496.5a9dc550.chunk.js.map": "/static/js/496.5a9dc550.chunk.js.map"
+    "main.css": "/portfolio-site/static/css/main.5b3cd74d.css",
+    "main.js": "/portfolio-site/static/js/main.d88c6dd0.js",
+    "static/js/496.5a9dc550.chunk.js": "/portfolio-site/static/js/496.5a9dc550.chunk.js",
+    "static/media/spaceHub.png": "/portfolio-site/static/media/spaceHub.64adb861987fc131aa81.png",
+    "static/media/thievesMonopoly.PNG": "/portfolio-site/static/media/thievesMonopoly.02e8edad7a7a497282be.PNG",
+    "static/media/aboutMe.JPG": "/portfolio-site/static/media/aboutMe.49ec2a03177bf12dab2e.JPG",
+    "static/media/joTheFish.PNG": "/portfolio-site/static/media/joTheFish.484847e578dbb57d09ae.PNG",
+    "static/media/tempoKeeper.png": "/portfolio-site/static/media/tempoKeeper.eb0473295ca624ff4d81.png",
+    "static/media/minute.PNG": "/portfolio-site/static/media/minute.8e9ad2d3a3bbca9ae33c.PNG",
+    "static/media/Myka_Kugaya_Resume.pdf": "/portfolio-site/static/media/Myka_Kugaya_Resume.3178aa9d23a76107a2d7.pdf",
+    "static/media/horizon_background.avif": "/portfolio-site/static/media/horizon_background.3b2d3f3b73a8768b2dbf.avif",
+    "index.html": "/portfolio-site/index.html",
+    "main.5b3cd74d.css.map": "/portfolio-site/static/css/main.5b3cd74d.css.map",
+    "main.d88c6dd0.js.map": "/portfolio-site/static/js/main.d88c6dd0.js.map",
+    "496.5a9dc550.chunk.js.map": "/portfolio-site/static/js/496.5a9dc550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d90da68.css",
-    "static/js/main.9b29f82b.js"
+    "static/css/main.5b3cd74d.css",
+    "static/js/main.d88c6dd0.js"
   ]
 }
