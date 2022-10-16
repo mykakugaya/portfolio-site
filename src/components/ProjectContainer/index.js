@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Card, Avatar, Image } from 'antd';
+import { Card, Image } from 'antd';
 import { GithubOutlined, PlayCircleOutlined } from '@ant-design/icons';
 
 // takes in name, description, tech, github, deployed (opt), and image
@@ -8,28 +8,6 @@ const { Meta } = Card;
 export default function ProjectContainer(props) {
 
     return (
-        // <Card
-        //     style={{ width: 300 }}
-        //     cover={
-        //         <Image
-        //         width={500}
-        //         src={props.image}
-        //          />
-        //     }
-        //     actions={[
-        //         <GithubOutlined key='github'/>
-        //         // {props.deployed ? <LinkOutlined key='deployed'/> : null}
-        //     // <SettingOutlined key="setting" />,
-        //     // <EditOutlined key="edit" />,
-        //     // <EllipsisOutlined key="ellipsis" />,
-        //     ]}
-        // >
-        //     <Meta
-        //     avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-        //     title={<h1 className='projectName'>{props.name}</h1>}
-        //     description={<h2 className='projectDescription'>{props.description}</h2>}
-        //     />
-        // </Card>
         <div className="projectDetails">
             <Image
                 className='projectImage'
