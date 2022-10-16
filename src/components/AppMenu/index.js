@@ -1,7 +1,6 @@
 import React from 'react';
 import "antd/dist/antd.css";
 import "./style.css";
-// import { Col, Row } from 'antd';
 import { useNavigate } from "react-router-dom";
 import { Menu, Tooltip } from 'antd';
 import { UserOutlined, ContactsOutlined, AppstoreOutlined, ProfileOutlined, MailFilled, LinkedinFilled, GithubOutlined } from '@ant-design/icons';

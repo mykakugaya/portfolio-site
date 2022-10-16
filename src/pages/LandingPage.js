@@ -1,4 +1,3 @@
-import { Col, Row } from 'antd';
 import React from 'react';
 import LandingTitle from "../components/LandingTitle";
 import LandingMenu from "../components/LandingMenu";
