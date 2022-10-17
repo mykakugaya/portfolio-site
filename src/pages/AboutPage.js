@@ -19,12 +19,12 @@ export default function AboutPage() {
             </Breadcrumb>
             <div className="aboutContainer">
                 <Row>
-                    <h1 className="aboutHeader typewriter-about">Hello, my name is Myka! Welcome to my portfolio <SmileTwoTone /> <SmileTwoTone /></h1>
+                    <h1 className="aboutHeader typewriter-about">Hello, my name is Myka! <SmileTwoTone /> <SmileTwoTone /></h1>
                 </Row>
                 <img className="aboutImage" src={aboutImg} alt="Myka Kugaya" />
                 <div className="aboutText">
                     <h3 className="aboutParagraph">
-                        I am a software engineer & full-stack web developer and 
+                        Welcome to my portfolio! I am a software engineer & full-stack web developer and 
                         recently obtained my B.A. in Computer Science from Boston University (graduated August 2022). 
                         My passion for software development grew after taking UCLA's Full-Stack Web Development Bootcamp in 2020, 
                         where I collaborated with mentors and teams to create full-stack web projects in Javascript and React.

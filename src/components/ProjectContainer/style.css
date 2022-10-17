@@ -1,6 +1,6 @@
 .projectDetails {
     width: 50%;
-    padding: 2%;
+    padding: 3%;
     display: inline-grid;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,12 @@
 
 .projectDescription {
     color: #072145;
+    font-size: 1.2em;
 }
 
 .projectTech {
     color: #072145;
+    font-size: 1.2em;
 }
 
 .projectLink {
@@ -39,4 +41,28 @@
 .projectLink:hover {
     color: #1756ae;
     font-size: 1.2em !important;
+}
+
+@media screen and (max-width: 750px) {
+    .projectName {
+        font-size: 1.2em;
+    }
+    .projectDescription {
+        font-size: 1em;
+    }
+    .projectTech {
+        font-size: 1em;
+    }
+    .projectLink {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .projectDetails {
+        width: 100%;
+    }
+    .projectLinks {
+        margin-bottom: 5%;
+    }
 }

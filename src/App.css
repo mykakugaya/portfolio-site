@@ -26,15 +26,15 @@ body, html {
   padding-top: 10% !important;
   width: 90vw;
   height: fit-content;
+  padding-bottom: 10%;
 }
 
 .pageContent {
-  padding: 2%;
+  padding: 3%;
   margin: 0 auto;
-  margin-bottom: 5%;
   background-color: rgba(240, 248, 255, 0.756);
   height: fit-content;
-  border-radius: 2%;
+  border-radius: 3%;
 }
 
 .ant-breadcrumb {
@@ -54,6 +54,9 @@ body, html {
 @media screen and (max-width: 550px) {
   .pageContainer {
     padding-top: 20% !important;
+  }
+  .pageContent {
+    border-radius: 2%;
   }
 }
 
