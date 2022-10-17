@@ -8,7 +8,7 @@ const projects = [
     {
         "key": 0,
         "name": "Minute",
-        "description": "A public speaking coaching web app that allows users to record and analyze their speeches and presentations.",
+        "description": "Build public speaking confidence in one minute. A public speaking coaching web app that allows users to record and analyze their speeches and presentations.",
         "tech": "React.js, Ant Design, Firebase, Heroku, AssemblyAI API",
         "image": minute,
         "github": "https://github.com/andyyvo/minute-react",
@@ -17,7 +17,7 @@ const projects = [
     {
         "key": 1,
         "name": "Tempo Keeper",
-        "description": "An Android mobile running application that allows users to customize their run routes and dynamically play music that matches their live running pace throughout runs.",
+        "description": "Pace yourself throughout runs and track your progress over time. A mobile running application that allows users to customize their run routes and dynamically queue and play Spotify tracks that match their live running pace.",
         "tech": "Android Studio, Java, Firebase, Google Directions API, Google Elevation API, Spotify API",
         "image": tempoKeeper,
         "github": "https://github.com/mykakugaya/tempo-keeper",
@@ -59,42 +59,6 @@ const projects = [
     //     "github": "test",
     //     "deployed": "test"
     // },
-    // {
-    //     "key": 6,
-    //     "name": "test",
-    //     "description": "test",
-    //     "tech": "test",
-    //     "image": "test",
-    //     "github": "test",
-    //     "deployed": "test"
-    // },
-    // {
-    //     "key": 7,
-    //     "name": "test",
-    //     "description": "test",
-    //     "tech": "test",
-    //     "image": "test",
-    //     "github": "test",
-    //     "deployed": "test"
-    // },
-    // {
-    //     "key": 8,
-    //     "name": "test",
-    //     "description": "test",
-    //     "tech": "test",
-    //     "image": "test",
-    //     "github": "test",
-    //     "deployed": "test"
-    // },
-    // {
-    //     "key": 9,
-    //     "name": "test",
-    //     "description": "test",
-    //     "tech": "test",
-    //     "image": "test",
-    //     "github": "test",
-    //     "deployed": "test"
-    // }
 ]
 
 export default projects;
