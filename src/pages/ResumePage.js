@@ -10,10 +10,10 @@ export default function ResumePage() {
         <div className="pageContainer">
             <div className="pageContent">
             <Breadcrumb>
-                <Breadcrumb.Item href="/*">
+                <Breadcrumb.Item href={process.env.PUBLIC_URL}>
                     <HomeOutlined />
                 </Breadcrumb.Item>
-                <Breadcrumb.Item href="/resume">
+                <Breadcrumb.Item href={process.env.PUBLIC_URL+"#/resume"}>
                     <ProfileOutlined />
                     <span>Resume</span>
                 </Breadcrumb.Item>

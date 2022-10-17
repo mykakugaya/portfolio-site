@@ -15,10 +15,10 @@ export default function ProjectsPage() {
                 </Col>
             </Row> */}
             <Breadcrumb>
-                <Breadcrumb.Item href="/*">
+                <Breadcrumb.Item href={process.env.PUBLIC_URL}>
                     <HomeOutlined />
                 </Breadcrumb.Item>
-                <Breadcrumb.Item href="/projects">
+                <Breadcrumb.Item href={process.env.PUBLIC_URL+"#/projects"}>
                     <AppstoreOutlined />
                     <span>Projects</span>
                 </Breadcrumb.Item>
