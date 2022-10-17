@@ -15,7 +15,7 @@ export default function ProjectsPage() {
                 </Col>
             </Row> */}
             <Breadcrumb>
-                <Breadcrumb.Item href="/">
+                <Breadcrumb.Item href="/*">
                     <HomeOutlined />
                 </Breadcrumb.Item>
                 <Breadcrumb.Item href="/projects">

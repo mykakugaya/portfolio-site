@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="pageContainer">
             <div className="pageContent">
             <Breadcrumb>
-                <Breadcrumb.Item href="/">
+                <Breadcrumb.Item href="/*">
                     <HomeOutlined />
                 </Breadcrumb.Item>
                 <Breadcrumb.Item href="/about">
