@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.4e4af5ce.css",
-    "main.js": "/portfolio-site/static/js/main.130c1999.js",
+    "main.js": "/portfolio-site/static/js/main.d0df1c36.js",
     "static/js/496.5a9dc550.chunk.js": "/portfolio-site/static/js/496.5a9dc550.chunk.js",
     "static/media/spaceHub.png": "/portfolio-site/static/media/spaceHub.64adb861987fc131aa81.png",
     "static/media/thievesMonopoly.PNG": "/portfolio-site/static/media/thievesMonopoly.02e8edad7a7a497282be.PNG",
@@ -9,15 +9,15 @@
     "static/media/joTheFish.PNG": "/portfolio-site/static/media/joTheFish.484847e578dbb57d09ae.PNG",
     "static/media/tempoKeeper.png": "/portfolio-site/static/media/tempoKeeper.eb0473295ca624ff4d81.png",
     "static/media/minute.PNG": "/portfolio-site/static/media/minute.8e9ad2d3a3bbca9ae33c.PNG",
-    "static/media/Myka_Kugaya_Resume.pdf": "/portfolio-site/static/media/Myka_Kugaya_Resume.3178aa9d23a76107a2d7.pdf",
+    "static/media/Myka_Kugaya_Resume.pdf": "/portfolio-site/static/media/Myka_Kugaya_Resume.d3a88e676321c42530ef.pdf",
     "static/media/horizon_background.avif": "/portfolio-site/static/media/horizon_background.3b2d3f3b73a8768b2dbf.avif",
     "index.html": "/portfolio-site/index.html",
     "main.4e4af5ce.css.map": "/portfolio-site/static/css/main.4e4af5ce.css.map",
-    "main.130c1999.js.map": "/portfolio-site/static/js/main.130c1999.js.map",
+    "main.d0df1c36.js.map": "/portfolio-site/static/js/main.d0df1c36.js.map",
     "496.5a9dc550.chunk.js.map": "/portfolio-site/static/js/496.5a9dc550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e4af5ce.css",
-    "static/js/main.130c1999.js"
+    "static/js/main.d0df1c36.js"
   ]
 }
